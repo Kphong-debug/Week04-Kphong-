@@ -55,5 +55,6 @@ public class Main {
         for (Student student : students){
             System.out.println(student.toString());
         }
+        inp.close();
     }   
 }
